@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-var fortunes = require('./libs/fortune');
+var fortune = require('./libs/fortune');
 
 var handlebars = require('express-handlebars')
   .create({
